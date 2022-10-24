@@ -5,7 +5,7 @@ import argparse
 import sys
 import os
 
-styleDict = ["油画","水彩画","卡通","粉笔画","儿童画","蜡笔画"]
+styleDict = ["美式漫画","二次元","卡通","国产动画","dc"]
 
 imglist = ['https://wenxin.baidu.com/younger/file/ERNIE-ViLG/efb2f442f09a5e19aeeb22de8971b0ceex', 'https://wenxin.baidu.com/younger/file/ERNIE-ViLG/efb2f442f09a5e19aeeb22de8971b0cei4', 'https://wenxin.baidu.com/younger/file/ERNIE-ViLG/efb2f442f09a5e19aeeb22de8971b0ce5q', 'https://wenxin.baidu.com/younger/file/ERNIE-ViLG/efb2f442f09a5e19aeeb22de8971b0ce30', 'https://wenxin.baidu.com/younger/file/ERNIE-ViLG/efb2f442f09a5e19aeeb22de8971b0cev9', 'https://wenxin.baidu.com/younger/file/ERNIE-ViLG/efb2f442f09a5e19aeeb22de8971b0cea2', 'https://wenxin.baidu.com/younger/file/ERNIE-ViLG/efb2f442f09a5e19aeeb22de8971b0cebf', 'https://wenxin.baidu.com/younger/file/ERNIE-ViLG/efb2f442f09a5e19aeeb22de8971b0cems', 'https://wenxin.baidu.com/younger/file/ERNIE-ViLG/efb2f442f09a5e19aeeb22de8971b0ceu7', 'https://wenxin.baidu.com/younger/file/ERNIE-ViLG/efb2f442f09a5e19aeeb22de8971b0cect']
 
@@ -73,8 +73,8 @@ class MV:
                 idict = self.getImageDict(txt)
                 self.readAndSave(idict, text=txt, ind=index)
 
-wenxin_api.ak = "********************************"
-wenxin_api.sk = "********************************"
+wenxin_api.ak = "eLFcwjv4pLcNNrGEYMYqW3XZapgWuVn4"
+wenxin_api.sk = "zZWQMnolkbcwt9IwvNGmT0RgO9nMIY06"
 
 mv = MV()
 
